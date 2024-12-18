@@ -129,7 +129,7 @@ const Index = () => {
       {/* Section Menu */}
       <section
         className="section kf-menu kf-parallax"
-        style={{ backgroundImage: "url(images/category_bg.jpg)" }}
+        style={{ backgroundImage: "url(images/knafeh-background.PNG)" }}
       >
         <div className="container">
           <div className="kf-titles align-center">
@@ -148,7 +148,7 @@ const Index = () => {
           </div>
           <div
             className="kf-menu-items"
-            style={{ backgroundImage: "url(images/menu_logo.png)" }}
+            // style={{ backgroundImage: "url(images/knafeh-b-logo.PNG)" }}
           >
             <div className="row">
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6">

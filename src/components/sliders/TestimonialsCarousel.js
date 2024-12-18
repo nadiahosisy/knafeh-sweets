@@ -4,7 +4,7 @@ const TestimonialsCarousel = () => {
   return (
     <section
       className="section kf-testimonials kf-testimonials-2 section-bg"
-      style={{ backgroundImage: "url(images/testimonials_bg2.jpeg)" }}
+      style={{ backgroundImage: "url(images/testimonials_bg2.png)" }}
     >
       <div className="container">
         <div className="kf-titles align-center">

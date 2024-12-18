@@ -107,7 +107,7 @@ const Index2 = () => {
       {/* Section Category */}
       <section
         className="section kf-category"
-        style={{ backgroundImage: "url(images/category_bg.jpg)" }}
+        style={{ backgroundImage: "url(images/knafeh-background.PNG" }}
       >
         <div className="container">
           <div className="row">
@@ -217,7 +217,7 @@ const Index2 = () => {
           </div>
           <div
             className="kf-menu-items"
-            style={{ backgroundImage: "url(images/menu_logo.png)" }}
+            // style={{ backgroundImage: "url(images/knafeh-b-logo.PNG)" }}
           >
             <div className="row">
               <div className="kf-menu-item-col col-xs-12 col-sm-12 col-md-6 col-lg-4">
@@ -551,7 +551,7 @@ const Index2 = () => {
       {/* Section About-2 */}
       <section
         className="section kf-about-2"
-        style={{ backgroundImage: "url(images/category_bg.jpg)" }}
+        style={{ backgroundImage: "url(images/knafeh-background.PNG)" }}
       >
         <div className="container">
           <div className="row">
