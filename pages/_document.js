@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html lang="he" dir="rtl">
       <Head>
-        <title>Kaffen - Cafe &amp; Restaurant React NextJS Template</title>
+        <title>Beit Haknafeh</title>
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
