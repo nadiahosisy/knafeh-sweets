@@ -94,7 +94,7 @@ const CoffeeMenu = () => {
         </div>
         <div
           className="kf-menu-items"
-          style={{ backgroundImage: "url(images/knafeh-b-logo.PNG)" }}
+          // style={{ backgroundImage: "url(images/knafeh-b-logo.PNG)" }}
         >
           <div className="row all-menu-items">
             <div className="kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 all hot-coffee">
