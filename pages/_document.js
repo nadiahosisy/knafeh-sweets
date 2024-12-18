@@ -2,7 +2,7 @@ import { Head, Html, Main, NextScript } from "next/document";
 
 export default function Document() {
   return (
-    <Html lang="en">
+    <Html lang="he" dir="rtl">
       <Head>
         <title>Kaffen - Cafe &amp; Restaurant React NextJS Template</title>
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />

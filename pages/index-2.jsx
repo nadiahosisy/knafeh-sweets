@@ -111,7 +111,7 @@ const Index2 = () => {
       >
         <div className="container">
           <div className="row">
-            <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+            <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6 gap-16">
               <div
                 className="kf-category-items element-anim-1 scroll-animate"
                 data-animate="active"

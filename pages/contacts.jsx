@@ -40,12 +40,12 @@ const Contacts = () => {
                   <h5 className="name">Main Location</h5>
                   <ul>
                     <li>
-                      55 Main Street, 2nd Block, <br />
-                      3rd Floor, New York
+                    כביש ראשי, אבא חושי <br />
+                    עיספיא, 3000900
                     </li>
                     <li>
-                      394 Main Street, 2nd Block, <br />
-                      3rd Floor, USA
+                    כביש ראשי, אבא חושי <br />
+                    עיספיא, 3000900
                     </li>
                   </ul>
                 </div>
@@ -88,12 +88,12 @@ const Contacts = () => {
                   <h5 className="name">Phone Number</h5>
                   <ul>
                     <li>
-                      +012 (345) 678 99 <br />
-                      123456780
+                    04-886-4323 <br />
+                   
                     </li>
                     <li>
-                      +012 (345) 678 99 <br />
-                      123456780
+                    04-886-4323 <br />
+                      
                     </li>
                   </ul>
                 </div>

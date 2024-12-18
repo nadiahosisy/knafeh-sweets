@@ -19,22 +19,18 @@ const Footer = () => {
             <div
               className="kf-f-hours element-anim-1 scroll-animate"
               data-animate="active"
-            >
+>
               <h5>Working Hours</h5>
-              <ul>
-                <li>
-                  Sunday - Thursday
-                  <em>08:00 am - 09:00pm</em>
+             <ul>
+            <li>
+                 Sunday - Saturday
+               <em>10:00 am - 10:00 pm</em>
                 </li>
                 <li>
-                  Only Friday
-                  <em>03:00 pm - 09:00pm</em>
-                </li>
-                <li>
-                  <strong>Saturday Close</strong>
-                </li>
-              </ul>
-            </div>
+              <strong>Tuesday Closed</strong>
+            </li>
+          </ul>
+        </div>
           </div>
           <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3">
             {/* contact */}
@@ -47,7 +43,7 @@ const Footer = () => {
                 <li>
                   <i className="las la-map-marker" />
                   <em>Location :</em>
-                  55 Main Street, New York
+                  כביש ראשי, אבא חושי, עיספיא, 3000900
                 </li>
                 <li>
                   <i className="las la-envelope-open-text" />
@@ -57,7 +53,7 @@ const Footer = () => {
                 <li>
                   <i className="las la-phone" />
                   <em>Phone Number :</em>
-                  +012 (345) 678 99
+                  04-886-4323
                 </li>
               </ul>
             </div>
@@ -122,17 +118,17 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="row">
-          <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 align-center">
-            {/* copyright */}
-            <div
-              className="kf-copyright element-anim-1 scroll-animate"
-              data-animate="active"
-            >
-              Copyright © 2022 Kaffen. All Rights Reserved.
-            </div>
-          </div>
-        </div>
+        <div className="flex justify-center items-center p-4 bg-gray-900 text-gray-300">
+  <div
+    className="kf-copyright element-anim-1 scroll-animate text-center"
+    data-animate="active"
+  >
+    Made with <span className="text-red-500">❤️</span> by Nadia & Ward | בית הכנאפה  
+    <br />
+    Copyright © 2024. All Rights Reserved.
+  </div>
+</div>
+
       </div>
     </div>
   );
