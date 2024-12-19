@@ -673,7 +673,7 @@ const Index2 = () => {
         </div>
       </section>
       {/* Section Testimonials Carousel */}
-      <TestimonialsCarousel />
+      {/* <TestimonialsCarousel /> */}
       {/* Section Video */}
       <div className="section kf-video kf-video-full">
         <VideoPlayer
@@ -682,7 +682,7 @@ const Index2 = () => {
         />
       </div>
       {/* Section Numbers-2 */}
-      <section className="section kf-numbers-2 section-bg">
+      {/* <section className="section kf-numbers-2 section-bg">
         <div className="container">
           <div className="kf-numbers-items-2 row">
             <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3">
@@ -747,9 +747,9 @@ const Index2 = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Section CTA */}
-      <section
+      {/* <section
         className="section kf-cta kf-parallax"
         style={{ backgroundImage: "url(images/cta_bg.jpg)" }}
       >
@@ -783,11 +783,11 @@ const Index2 = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Section Latest Blog */}
-      <section className="section kf-latest-blog section-bg">
+      {/* <section className="section kf-latest-blog section-bg">
         <div className="container">
-          <div className="kf-titles align-center">
+           <div className="kf-titles align-center">
             <div
               className="kf-subtitle element-anim-1 scroll-animate"
               data-animate="active"
@@ -800,7 +800,7 @@ const Index2 = () => {
             >
               Read Some Latest Blog &amp; News
             </h3>
-          </div>
+          </div> 
           <div className="kf-blog-grid-items row">
             <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
               <div
@@ -889,7 +889,7 @@ const Index2 = () => {
             </Link>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Section Insta Carousel */}
       <InstaCarousel />
       {/* Section Brands */}

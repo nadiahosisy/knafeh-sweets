@@ -1683,7 +1683,7 @@ button.mfp-close:before {
   display: none;
 }
 
-.kf-f-hours ul li:before {
+/* .kf-f-hours ul li:before {
   content: "";
   position: absolute;
   left: 0;
@@ -1693,7 +1693,7 @@ button.mfp-close:before {
   background: #fff;
   border-radius: 5px;
   -webkit-border-radius: 5px;
-}
+} */
 
 .kf-f-hours ul li em {
   display: block;

@@ -246,7 +246,7 @@ const BlogSingle = () => {
         </div>
       </section>
       {/* Section CTA */}
-      <section
+      {/* <section
         className="section kf-cta kf-parallax"
         style={{ backgroundImage: "url(images/cta_bg.jpg)" }}
       >
@@ -280,7 +280,7 @@ const BlogSingle = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Section Brands */}
       <div className="section kf-brands">
         <div className="container">

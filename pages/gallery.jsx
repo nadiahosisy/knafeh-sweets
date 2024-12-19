@@ -32,7 +32,7 @@ const Gallery = () => {
       {/* Section Gallery */}
       <PhotoGalleryIsotope />
       {/* Section CTA */}
-      <section
+      {/* <section
         className="section kf-cta kf-parallax"
         style={{ backgroundImage: "url(images/cta_bg3.jpg)" }}
       >
@@ -66,7 +66,7 @@ const Gallery = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Section Brands */}
       <div className="section kf-brands">
         <div className="container">

@@ -9,9 +9,9 @@ const Footer = () => {
               className="kf-logo element-anim-1 scroll-animate"
               data-animate="active"
             >
-              <a href="index.html">
+              {/* <a href="index.html">
                 <img src="images/logo.png" alt="image" />
-              </a>
+              </a> */}
             </div>
           </div>
           <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3">
@@ -20,14 +20,14 @@ const Footer = () => {
               className="kf-f-hours element-anim-1 scroll-animate"
               data-animate="active"
 >
-              <h5>Working Hours</h5>
+              <h5>שעות פתיחה</h5>
              <ul>
             <li>
-                 Sunday - Saturday
-               <em>10:00 am - 10:00 pm</em>
+                 ראשון - שבת
+               <em>10:00 - 22:00 </em>
                 </li>
                 <li>
-              <strong>Tuesday Closed</strong>
+              <strong>שלישי סגור</strong>
             </li>
           </ul>
         </div>
@@ -38,21 +38,21 @@ const Footer = () => {
               className="kf-f-contact element-anim-1 scroll-animate"
               data-animate="active"
             >
-              <h5>Contact Us</h5>
+              <h5>צור קשר</h5>
               <ul>
                 <li>
                   <i className="las la-map-marker" />
-                  <em>Location :</em>
+                  <em>מיקום :</em>
                   כביש ראשי, אבא חושי, עיספיא, 3000900
                 </li>
-                <li>
+                {/* <li>
                   <i className="las la-envelope-open-text" />
                   <em>Email Address :</em>
                   kaffendev@gmail.com
-                </li>
+                </li> */}
                 <li>
                   <i className="las la-phone" />
-                  <em>Phone Number :</em>
+                  <em> מספר טלפון</em>
                   04-886-4323
                 </li>
               </ul>
@@ -123,9 +123,9 @@ const Footer = () => {
     className="kf-copyright element-anim-1 scroll-animate text-center"
     data-animate="active"
   >
-    Made with <span className="text-red-500">❤️</span> by Nadia & Ward | בית הכנאפה  
+    בית הכנאפה | Made with <span className="text-red-500">❤️</span> by Nadia & Ward 
     <br />
-    Copyright © 2024. All Rights Reserved.
+    .Copyright © 2024. All Rights Reserved
   </div>
 </div>
 

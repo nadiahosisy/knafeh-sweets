@@ -371,7 +371,7 @@ const Index = () => {
         </div>
       </section>
       {/* Section Grid Carousel */}
-      <section className="section kf-grid-carousel">
+      {/* <section className="section kf-grid-carousel">
         <div className="container">
           <Swiper {...sliderProps.kfGridCarousel} className="swiper-container">
             <SwiperSlide className="swiper-slide">
@@ -526,11 +526,11 @@ const Index = () => {
             </SwiperSlide>
           </Swiper>
         </div>
-      </section>
+      </section> */}
       {/* Section Testimonials Carousel */}
-      <TestimonialsCarousel />
+      {/* <TestimonialsCarousel /> */}
       {/* Section Numbers */}
-      <section className="section kf-numbers">
+      {/* <section className="section kf-numbers">
         <div className="container">
           <div className="kf-numbers-items row">
             <div className="col-xs-12 col-sm-12 col-md-6 col-lg-4">
@@ -562,11 +562,11 @@ const Index = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Section Latest Blog */}
-      <section className="section kf-latest-blog section-bg">
+      {/* <section className="section kf-latest-blog section-bg">
         <div className="container">
-          <div className="kf-titles align-center">
+           <div className="kf-titles align-center">
             <div
               className="kf-subtitle element-anim-1 scroll-animate"
               data-animate="active"
@@ -579,7 +579,7 @@ const Index = () => {
             >
               Read Some Latest Blog &amp; News
             </h3>
-          </div>
+          </div> 
           <div className="kf-blog-grid-items row">
             <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
               <div
@@ -668,9 +668,9 @@ const Index = () => {
             </Link>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Section CTA */}
-      <section
+      {/* <section
         className="section kf-cta kf-parallax"
         style={{ backgroundImage: "url(images/cta_bg.jpg)" }}
       >
@@ -704,7 +704,7 @@ const Index = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </Layouts>
   );
 };

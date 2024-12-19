@@ -197,7 +197,7 @@ const MenuRestaurant = () => {
         </div>
       </section>
       {/* Section CTA */}
-      <section
+      {/* <section
         className="section kf-cta kf-parallax"
         style={{ backgroundImage: "url(images/cta_bg3.jpg)" }}
       >
@@ -231,7 +231,7 @@ const MenuRestaurant = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Section Menu-2 */}
       <section className="section kf-menu">
         <div className="container">

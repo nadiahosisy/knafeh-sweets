@@ -106,7 +106,7 @@ const About = () => {
         </div>
       </section>
       {/* Section Numbers-2 */}
-      <section className="section kf-numbers-2 section-bg">
+      {/* <section className="section kf-numbers-2 section-bg">
         <div className="container">
           <div className="kf-numbers-items-2 row">
             <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3">
@@ -171,7 +171,7 @@ const About = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Section Video */}
       <section className="section kf-video">
         <div className="container">
@@ -461,9 +461,9 @@ const About = () => {
         </div>
       </section>
       {/* Section Testimonials Carousel */}
-      <TestimonialsCarousel />
+      {/* <TestimonialsCarousel /> */}
       {/* Section CTA */}
-      <section
+      {/* <section
         className="section kf-cta kf-parallax"
         style={{ backgroundImage: "url(images/cta_bg.jpg)" }}
       >
@@ -497,7 +497,7 @@ const About = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </Layouts>
   );
 };

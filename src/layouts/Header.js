@@ -114,7 +114,7 @@ const Header = () => {
               <li>
                 <Link href="about">הסיפור שלנו</Link>
               </li>
-              <li>
+              {/* <li>
                 <a href="#">
                 <i className="las la-angle-down" />
                   עמודים               
@@ -139,8 +139,8 @@ const Header = () => {
                     <Link href="faq">שאלות נפוצות</Link>
                   </li>
                 </ul>
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 <a href="#">
                 <i className="las la-angle-down" />
                   בלוג                 
@@ -156,7 +156,7 @@ const Header = () => {
                     <Link href="blog-single">בלוג בודד</Link>
                   </li>
                 </ul>
-              </li>
+              </li> */}
               <li>
                 <Link href="contacts">צור קשר</Link>
               </li>
@@ -199,9 +199,7 @@ const Header = () => {
     </li>
   </ul>
 </li>
-          <li>
-            <Link href="about">עלינו</Link>
-          </li>
+         
           <li className="has-children">
             <Link href="menu-coffee">תפריט</Link>
             <i
@@ -217,7 +215,7 @@ const Header = () => {
               </li>
               </ul>
             </li>
-            <li className="has-children">
+            {/* <li className="has-children">
               <a href="#">Pages</a>
               <i
                 className="las la-angle-down"
@@ -261,21 +259,22 @@ const Header = () => {
                   <Link href="blog-single">Blog Single</Link>
                 </li>
               </ul>
-            </li>
+            </li> */}
+             <li>
+            <Link href="about">עלינו</Link>
+          </li>
             <li>
-              <Link href="contacts">Contacts</Link>
+              <Link href="contacts">צור קשר</Link>
             </li>
+            
           </ul>
         </div>
         {/* mobile topline */}
         <div className="kf-topline">
           <div className="row">
             <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-              {/* mobile btn */}
-              <Link href="reservation" className="kf-btn h-btn">
-                <span>Book a table</span>
-                <i className="fas fa-chevron-right" />
-              </Link>
+            
+        
             </div>
             <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
               {/* social */}

@@ -300,7 +300,7 @@ const Team = () => {
         </div>
       </section>
       {/* Section CTA */}
-      <section
+      {/* <section
         className="section kf-cta kf-parallax"
         style={{ backgroundImage: "url(images/cta_bg.jpg)" }}
       >
@@ -334,9 +334,9 @@ const Team = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Section Testimonials Carousel */}
-      <TestimonialsCarousel />
+      {/* <TestimonialsCarousel /> */}
       {/* Section Brands */}
       <div className="section kf-brands">
         <div className="container">

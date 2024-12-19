@@ -23,7 +23,7 @@ const BlogGrid = () => {
       {/* Section Latest Blog */}
       <section className="section kf-latest-blog">
         <div className="container">
-          <div className="kf-titles align-center">
+          {/* <div className="kf-titles align-center">
             <div
               className="kf-subtitle element-anim-1 scroll-animate"
               data-animate="active"
@@ -36,7 +36,7 @@ const BlogGrid = () => {
             >
               Read Some Latest Blog &amp; News
             </h3>
-          </div>
+          </div> */}
           <div className="kf-blog-grid-items row">
             <div className="col-xs-12 col-sm-12 col-md-6 col-lg-4">
               <div
@@ -208,7 +208,7 @@ const BlogGrid = () => {
         </div>
       </section>
       {/* Section CTA */}
-      <section
+      {/* <section
         className="section kf-cta kf-parallax"
         style={{ backgroundImage: "url(images/cta_bg.jpg)" }}
       >
@@ -242,7 +242,7 @@ const BlogGrid = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Section Brands */}
       <div className="section kf-brands">
         <div className="container">
