@@ -311,6 +311,10 @@ const CoffeeMenu = () => {
               </div>
             </div>
 
+
+
+
+
             <div className="kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 all cold-drinks">
               <div
                 className="kf-menu-item element-anim-1 scroll-animate"
@@ -322,9 +326,9 @@ const CoffeeMenu = () => {
                   </a>
                 </div>
                 <div className="desc">
-                  <h5 className="name">אמריקנו</h5>
-                  <div className="subname">אספרסו ומים קרים</div>
-                  <div className="price">12₪</div>
+                  <h5 className="name">מילקשייק</h5>
+                  <div className="subname">קרים</div>
+                  <div className="price">25₪</div>
                 </div>
               </div>
             </div>
