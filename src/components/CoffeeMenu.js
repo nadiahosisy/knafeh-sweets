@@ -326,9 +326,9 @@ const CoffeeMenu = () => {
                   </a>
                 </div>
                 <div className="desc">
-                  <h5 className="name">מילקשייק</h5>
-                  <div className="subname">קרים</div>
-                  <div className="price">25₪</div>
+                  <h5 className="name">אמריקנו</h5>
+                  <div className="subname">אספרסו ומים קרים</div>
+                  <div className="price">12₪</div>
                 </div>
               </div>
             </div>
