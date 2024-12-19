@@ -280,19 +280,28 @@ const Header = () => {
             <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
               {/* social */}
               <div className="kf-h-social">
-                <a href="facebook.com" target="blank">
-                  <i className="fab fa-facebook-f" />
-                </a>
-                <a href="twitter.com" target="blank">
-                  <i className="fab fa-twitter" />
-                </a>
-                <a href="instagram.com" target="blank">
-                  <i className="fab fa-instagram" />
-                </a>
-                <a href="youtube.com" target="blank">
-                  <i className="fab fa-youtube" />
-                </a>
-              </div>
+            <a
+              href="https://www.facebook.com/people/%D7%91%D7%99%D7%AA-%D7%94%D7%9B%D7%A0%D7%90%D7%A4%D7%94-%D7%A2%D7%A1%D7%A4%D7%99%D7%94/61554417312987/"
+              target="blank"
+            >
+              <i className="fab fa-facebook-f" />
+            </a>
+            <a
+              href="https://www.instagram.com/bethaknafeh_/"
+              target="blank"
+            >
+              <i className="fab fa-instagram" />
+            </a>
+            <a
+              href="https://www.waze.com/he/live-map/directions/%D7%91%D7%99%D7%AA-%D7%94%D7%9B%D7%A0%D7%90%D7%A4%D7%94-%D7%90%D7%91%D7%90-%D7%97%D7%95%D7%A9%D7%99-352-%D7%A2%D7%A1%D7%A4%D7%99%D7%90?to=place.w.23003463.229706953.456125"
+              target="blank"
+            >
+              <i className="fab fa-waze" />
+            </a>
+            <a href="http://wa.me/972525380082" target="blank">
+              <i className="fab fa-whatsapp" />
+            </a>
+          </div>
             </div>
             <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
               {/* hours */}

@@ -22,7 +22,7 @@ const MainSlider = () => {
               <p className="kf-slider-description">
                 התענגו על המגוון המשובח ביותר של כנאפה וממתקים מיוחדים
               </p>
-              <Link href="reservation" className="menu-btn">
+              <Link href="reservation" className="menu-btn kf-btn">
                 <span>לתפריט</span>
               </Link>
             </div>
