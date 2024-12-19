@@ -311,9 +311,49 @@ const CoffeeMenu = () => {
               </div>
             </div>
 
-
-
-
+            <div className="kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 all cold-drinks">
+              <div
+                className="kf-menu-item element-anim-1 scroll-animate"
+                data-animate="active"
+              >
+                <div className="image kf-image-hover">
+                  <a href="images/menu2.jpg" className="has-popup-image">
+                    <img src="images/menu2.jpg" alt="image" />
+                  </a>
+                </div>
+                <div className="desc">
+                  <h5 className="name">מילקשייק</h5>
+                  <div className="subname">
+                    על בסיס גלידה עשירה בטעמים לבחירה <br />
+                    (שוקולד בלגי , וניל קלאסי, תות, וניל-עוגיות, פיסטוק, לוטוס,
+                    וניל דובדבן, מסטיק) <br />
+                    מוגש עם קצפת מעל.
+                  </div>
+                  <div className="price">25₪</div>
+                </div>
+              </div>
+            </div>
+            <div className="kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 all cold-drinks">
+              <div
+                className="kf-menu-item element-anim-1 scroll-animate"
+                data-animate="active"
+              >
+                <div className="image kf-image-hover">
+                  <a href="images/menu2.jpg" className="has-popup-image">
+                    <img src="images/menu2.jpg" alt="image" />
+                  </a>
+                </div>
+                <div className="desc">
+                  <h5 className="name">קפה קר</h5>
+                  <div className="subname">
+                    אספרסו איכותי, מוגש עם חלב טרי, קרח ומעט מתיקות לבחירה.
+                    <br />
+                    מוגש עם קצפת מעל.
+                  </div>
+                  <div className="price">15₪</div>
+                </div>
+              </div>
+            </div>
 
             <div className="kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 all cold-drinks">
               <div
@@ -326,9 +366,299 @@ const CoffeeMenu = () => {
                   </a>
                 </div>
                 <div className="desc">
-                  <h5 className="name">אמריקנו</h5>
-                  <div className="subname">אספרסו ומים קרים</div>
+                  <h5 className="name">אייס וניל</h5>
+                  <div className="subname">
+                    משקה קרמי ומפנק על בסיס וניל, קרח גרוס וחלב טרי, <br />
+                    מוגש עם קצפת מעל.
+                  </div>
                   <div className="price">12₪</div>
+                </div>
+              </div>
+            </div>
+            <div className="kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 all cold-drinks">
+              <div
+                className="kf-menu-item element-anim-1 scroll-animate"
+                data-animate="active"
+              >
+                <div className="image kf-image-hover">
+                  <a href="images/menu2.jpg" className="has-popup-image">
+                    <img src="images/menu2.jpg" alt="image" />
+                  </a>
+                </div>
+                <div className="desc">
+                  <h5 className="name">אייס קפה</h5>
+                  <div className="subname">
+                    משקה קרמי וממכר על בסיס קפה נמס איכותי, קרח גרוס וחלב טרי,
+                    <br />
+                    מוגש עם קצפת מעל.
+                  </div>
+                  <div className="price">12₪</div>
+                </div>
+              </div>
+            </div>
+            <div className="kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 all cold-drinks">
+              <div
+                className="kf-menu-item element-anim-1 scroll-animate"
+                data-animate="active"
+              >
+                <div className="image kf-image-hover">
+                  <a href="images/menu2.jpg" className="has-popup-image">
+                    <img src="images/menu2.jpg" alt="image" />
+                  </a>
+                </div>
+                <div className="desc">
+                  <h5 className="name">לימונענע גרוס</h5>
+                  <div className="subname">
+                    שילוב מרענן של לימון חמצמץ ונענע טרייה עם קרח גרוס וסירופ
+                    מתקתק במידה הנכונה.
+                  </div>
+                  <div className="price">12₪</div>
+                </div>
+              </div>
+            </div>
+            <div className="kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 all cold-drinks">
+              <div
+                className="kf-menu-item element-anim-1 scroll-animate"
+                data-animate="active"
+              >
+                <div className="image kf-image-hover">
+                  <a href="images/menu2.jpg" className="has-popup-image">
+                    <img src="images/menu2.jpg" alt="image" />
+                  </a>
+                </div>
+                <div className="desc">
+                  <h5 className="name">קנקן לימנענע גרוס</h5>
+                  <div className="subname">
+                    קנקן גדול של משקה מרענן של לימון חמצמץ ונענע טרייה עם קרח
+                    גרוס וסירופ מתקתק במידה הנכונה.
+                  </div>
+                  <div className="price">30₪</div>
+                </div>
+              </div>
+            </div>
+
+            <div className="kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 all cold-drinks">
+              <div
+                className="kf-menu-item element-anim-1 scroll-animate"
+                data-animate="active"
+              >
+                <div className="image kf-image-hover">
+                  <a href="images/menu2.jpg" className="has-popup-image">
+                    <img src="images/menu2.jpg" alt="image" />
+                  </a>
+                </div>
+                <div className="desc">
+                  <h5 className="name">תפוזים סחוט טבעי</h5>
+                  <div className="subname">
+                    תפוזים טריים, נסחטים במקום למיץ טבעי, מתוק ומלא בריאות.
+                  </div>
+                  <div className="price">15₪</div>
+                </div>
+              </div>
+            </div>
+            <div className="kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 all cold-drinks">
+              <div
+                className="kf-menu-item element-anim-1 scroll-animate"
+                data-animate="active"
+              >
+                <div className="image kf-image-hover">
+                  <a href="images/menu2.jpg" className="has-popup-image">
+                    <img src="images/menu2.jpg" alt="image" />
+                  </a>
+                </div>
+                <div className="desc">
+                  <h5 className="name">לימונדה קלאסית</h5>
+                  <div className="subname">
+                    {" "}
+                    משקה לימונדה מרענן בטעם לימון מתקתק, מוכן במיוחד לרגעים של
+                    פינוק ורעננות.
+                  </div>
+                  <div className="price">25₪</div>
+                </div>
+              </div>
+            </div>
+            <div className="kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 all cold-drinks">
+              <div
+                className="kf-menu-item element-anim-1 scroll-animate"
+                data-animate="active"
+              >
+                <div className="image kf-image-hover">
+                  <a href="images/menu2.jpg" className="has-popup-image">
+                    <img src="images/menu2.jpg" alt="image" />
+                  </a>
+                </div>
+                <div className="desc">
+                  <h5 className="name">קנקן לימונדה קלאסית</h5>
+                  <div className="subname">
+                    {" "}
+                    קנקן גדול של משקה לימונדה מרענן בטעם לימון מתקתק, מוכן
+                    במיוחד לרגעים של פינוק ורעננות.
+                  </div>
+                  <div className="price">25₪</div>
+                </div>
+              </div>
+            </div>
+            <div className="kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 all cold-drinks">
+              <div
+                className="kf-menu-item element-anim-1 scroll-animate"
+                data-animate="active"
+              >
+                <div className="image kf-image-hover">
+                  <a href="images/menu2.jpg" className="has-popup-image">
+                    <img src="images/menu2.jpg" alt="image" />
+                  </a>
+                </div>
+                <div className="desc">
+                  <h5 className="name"> ברד ענבים</h5>
+                  <div className="price">10₪</div>
+                </div>
+              </div>
+            </div>
+
+            <div className="kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 all cold-drinks">
+              <div
+                className="kf-menu-item element-anim-1 scroll-animate"
+                data-animate="active"
+              >
+                <div className="image kf-image-hover">
+                  <a href="images/menu2.jpg" className="has-popup-image">
+                    <img src="images/menu2.jpg" alt="image" />
+                  </a>
+                </div>
+                <div className="desc">
+                  <h5 className="name"> ברד פסיפלורה</h5>
+                  <div className="price">10₪</div>
+                </div>
+              </div>
+            </div>
+
+            <div className="kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 all cold-drinks">
+              <div
+                className="kf-menu-item element-anim-1 scroll-animate"
+                data-animate="active"
+              >
+                <div className="image kf-image-hover">
+                  <a href="images/menu2.jpg" className="has-popup-image">
+                    <img src="images/menu2.jpg" alt="image" />
+                  </a>
+                </div>
+                <div className="desc">
+                  <h5 className="name"> מים מינרליים</h5>
+                  <div className="price">10₪</div>
+                </div>
+              </div>
+            </div>
+
+            <div className="kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 all cold-drinks">
+              <div
+                className="kf-menu-item element-anim-1 scroll-animate"
+                data-animate="active"
+              >
+                <div className="image kf-image-hover">
+                  <a href="images/menu2.jpg" className="has-popup-image">
+                    <img src="images/menu2.jpg" alt="image" />
+                  </a>
+                </div>
+                <div className="desc">
+                  <h5 className="name"> ענבים</h5>
+                  <div className="price">10₪</div>
+                </div>
+              </div>
+            </div>
+            <div className="kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 all cold-drinks">
+              <div
+                className="kf-menu-item element-anim-1 scroll-animate"
+                data-animate="active"
+              >
+                <div className="image kf-image-hover">
+                  <a href="images/menu2.jpg" className="has-popup-image">
+                    <img src="images/menu2.jpg" alt="image" />
+                  </a>
+                </div>
+                <div className="desc">
+                  <h5 className="name"> אשכוליות</h5>
+                  <div className="price">10₪</div>
+                </div>
+              </div>
+            </div>
+
+            <div className="kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 all cold-drinks">
+              <div
+                className="kf-menu-item element-anim-1 scroll-animate"
+                data-animate="active"
+              >
+                <div className="image kf-image-hover">
+                  <a href="images/menu2.jpg" className="has-popup-image">
+                    <img src="images/menu2.jpg" alt="image" />
+                  </a>
+                </div>
+                <div className="desc">
+                  <h5 className="name"> XL</h5>
+                  <div className="price">10₪</div>
+                </div>
+              </div>
+            </div>
+            <div className="kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 all cold-drinks">
+              <div
+                className="kf-menu-item element-anim-1 scroll-animate"
+                data-animate="active"
+              >
+                <div className="image kf-image-hover">
+                  <a href="images/menu2.jpg" className="has-popup-image">
+                    <img src="images/menu2.jpg" alt="image" />
+                  </a>
+                </div>
+                <div className="desc">
+                  <h5 className="name"> סודה</h5>
+                  <div className="price">10₪</div>
+                </div>
+              </div>
+            </div>
+            <div className="kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 all cold-drinks">
+              <div
+                className="kf-menu-item element-anim-1 scroll-animate"
+                data-animate="active"
+              >
+                <div className="image kf-image-hover">
+                  <a href="images/menu2.jpg" className="has-popup-image">
+                    <img src="images/menu2.jpg" alt="image" />
+                  </a>
+                </div>
+                <div className="desc">
+                  <h5 className="name"> פאנטה</h5>
+                  <div className="price">10₪</div>
+                </div>
+              </div>
+            </div>
+            <div className="kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 all cold-drinks">
+              <div
+                className="kf-menu-item element-anim-1 scroll-animate"
+                data-animate="active"
+              >
+                <div className="image kf-image-hover">
+                  <a href="images/menu2.jpg" className="has-popup-image">
+                    <img src="images/menu2.jpg" alt="image" />
+                  </a>
+                </div>
+                <div className="desc">
+                  <h5 className="name"> קוקה קולה</h5>
+                  <div className="price">10₪</div>
+                </div>
+              </div>
+            </div>
+            <div className="kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 all cold-drinks">
+              <div
+                className="kf-menu-item element-anim-1 scroll-animate"
+                data-animate="active"
+              >
+                <div className="image kf-image-hover">
+                  <a href="images/menu2.jpg" className="has-popup-image">
+                    <img src="images/menu2.jpg" alt="image" />
+                  </a>
+                </div>
+                <div className="desc">
+                  <h5 className="name"> קולה זירו</h5>
+                  <div className="price">10₪</div>
                 </div>
               </div>
             </div>
