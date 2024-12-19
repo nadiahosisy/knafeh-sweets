@@ -52,8 +52,9 @@ const Footer = () => {
                 </li> */}
                 <li>
                   <i className="las la-phone" />
-                  <em> מספר טלפון</em>
-                  04-886-4323
+                  <em>מספר טלפון</em>
+                    <a href="tel:+972-4-886-4323">04-886-4323</a>
+
                 </li>
               </ul>
             </div>
