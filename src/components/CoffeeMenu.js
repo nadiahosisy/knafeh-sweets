@@ -662,21 +662,7 @@ const CoffeeMenu = () => {
                 </div>
               </div>
 
-                          <div className="kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 all dessert">
-              <div
-                className="kf-menu-item element-anim-1 scroll-animate"
-                data-animate="active"
-              >
-                <div className="image kf-image-hover">
-                  <a href="images/menu2.jpg" className="has-popup-image">
-                    <img src="images/menu2.jpg" alt="image" />
-                  </a>
-                </div>
-                <div className="desc">
-                  <h5 className="name"> קולה זירו</h5>
-                  <div className="price">10₪</div>
-                </div>
-              </div>
+              
             </div>
           </div>
         </div>
