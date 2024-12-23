@@ -73,6 +73,14 @@ const CoffeeMenu = () => {
           >
             הכל
           </a>
+
+          <a
+            className="c-pointer"
+            onClick={handleFilterKeyChange("iceCream")}
+            data-href="iceCream"
+          >
+            גלידה
+          </a>
           <a
             className="c-pointer"
             onClick={handleFilterKeyChange("dessert")}
@@ -80,6 +88,7 @@ const CoffeeMenu = () => {
           >
             מתוקים
           </a>
+
           <a
             className="c-pointer"
             onClick={handleFilterKeyChange("knafeh")}
@@ -264,6 +273,27 @@ const CoffeeMenu = () => {
                     מרקם חלק וקרמי.
                   </div>
                   <div className="price">15₪</div>
+                </div>
+              </div>
+            </div>
+            <div className="kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 all hot-drinks">
+              <div
+                className="kf-menu-item element-anim-1 scroll-animate"
+                data-animate="active"
+              >
+                <div className="image kf-image-hover">
+                  <a href="images/menu1.jpg" className="has-popup-image">
+                    <img src="images/menu1.jpg" alt="image" />
+                  </a>
+                </div>
+                <div className="desc">
+                  <h5 className="name">קפה מוקה</h5>
+                  <div className="subname">
+                    משקה מתוק ומחמם המבוסס על אבקת שוקו שילוב מפנק של אספרסו
+                    איכותי, שוקולד עשיר וחלב מוקצף, עם אבקת קקאו מעל להשלמת
+                    הטעם.
+                  </div>
+                  <div className="price">18₪</div>
                 </div>
               </div>
             </div>
@@ -661,8 +691,158 @@ const CoffeeMenu = () => {
                   <div className="price">10₪</div>
                 </div>
               </div>
+            </div>
 
-              
+            <div className="kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 all dessert">
+              <div
+                className="kf-menu-item element-anim-1 scroll-animate"
+                data-animate="active"
+              >
+                <div className="image kf-image-hover">
+                  <a href="images/menu2.jpg" className="has-popup-image">
+                    <img src="images/menu2.jpg" alt="image" />
+                  </a>
+                </div>
+                <div className="desc">
+                  <h5 className="name">וופל בלגי מפנק</h5>
+                  <div className="subname">
+                    וופל בלגי טרי ופריך, מוגש עם רטבי שוקולד לבחירה: נוטלה,
+                    שוקולד לבן, קינדר, פיסטוק, מייפל או לוטוס. <br />
+                    כולל כדור גלידה לבחירה (שוקולד, וניל, תות ועוד) וקצפת עשירה
+                    בצד.
+                  </div>
+                  <div className="price">45₪</div>
+                </div>
+              </div>
+            </div>
+            <div className="kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 all dessert">
+              <div
+                className="kf-menu-item element-anim-1 scroll-animate"
+                data-animate="active"
+              >
+                <div className="image kf-image-hover">
+                  <a href="images/menu2.jpg" className="has-popup-image">
+                    <img src="images/menu2.jpg" alt="image" />
+                  </a>
+                </div>
+                <div className="desc">
+                  <h5 className="name">פנקייק קלאסי</h5>
+                  <div className="subname">
+                    זוג פנקייקים זהובים, אווריריים וטריים, מוגשים עם רטבים
+                    לבחירה: נוטלה, שוקולד לבן, קינדר, פיסטוק, מייפל או לוטוס.{" "}
+                    <br />
+                    כולל כדור גלידה לבחירה (שוקולד, וניל, תות ועוד) וקצפת עשירה
+                    בצד.
+                  </div>
+                  <div className="price">35₪</div>
+                </div>
+              </div>
+            </div>
+            <div className="kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 all dessert">
+              <div
+                className="kf-menu-item element-anim-1 scroll-animate"
+                data-animate="active"
+              >
+                <div className="image kf-image-hover">
+                  <a href="images/menu2.jpg" className="has-popup-image">
+                    <img src="images/menu2.jpg" alt="image" />
+                  </a>
+                </div>
+                <div className="desc">
+                  <h5 className="name">פנקייק הולנדי</h5>
+                  <div className="subname">
+                    כדורי פנקייק אווריריים וטריים, מוגשים בגדלים לבחירה:
+                    <br />
+                    10 כדורים, 15 כדורים או 20 כדורים.
+                    <br />
+                    מגיעים עם רטבים מפנקים לבחירה: נוטלה, שוקולד לבן, קינדר,
+                    פיסטוק, מייפל או לוטוס.
+                  </div>
+                  <div className="price">28₪</div>
+                </div>
+              </div>
+            </div>
+            <div className="kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 all dessert">
+              <div
+                className="kf-menu-item element-anim-1 scroll-animate"
+                data-animate="active"
+              >
+                <div className="image kf-image-hover">
+                  <a href="images/menu2.jpg" className="has-popup-image">
+                    <img src="images/menu2.jpg" alt="image" />
+                  </a>
+                </div>
+                <div className="desc">
+                  <h5 className="name">קרפ צרפתי</h5>
+                  <div className="subname">
+                    קרפ דקיק וזהוב, מוגש עם רטבים מפנקים לבחירה: נוטלה, שוקולד
+                    לבן, קינדר, פיסטוק, מייפל או לוטוס.
+                    <br />
+                    כולל כדור גלידה לבחירה (וניל, שוקולד, תות ועוד) וקצפת מעל.
+                    <br />
+                    ניתן להוסיף תוספות לבחירה: מקופלת, פירורי לוטוס או אוראו,
+                    בוטנים קלויים, דובדבן מסוכר ועוד.
+                  </div>
+                  <div className="price">25₪</div>
+                </div>
+              </div>
+            </div>
+            <div className="kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 all dessert">
+              <div
+                className="kf-menu-item element-anim-1 scroll-animate"
+                data-animate="active"
+              >
+                <div className="image kf-image-hover">
+                  <a href="images/menu2.jpg" className="has-popup-image">
+                    <img src="images/menu2.jpg" alt="image" />
+                  </a>
+                </div>
+                <div className="desc">
+                  <h5 className="name">צ'ורוס</h5>
+                  <div className="subname">
+                    8 יחידות של צ'ורוס טריים, זהובים ופריכים, מצופים בסוכר
+                    וקינמון.
+                    <br />
+                    מוגשים לצד קצפת עם רטבים לבחירה: קינדר, נוטלה או שוקולד לבן.
+                  </div>
+                  <div className="price">45₪</div>
+                </div>
+              </div>
+            </div>
+            <div className="kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 all knafeh">
+              <div
+                className="kf-menu-item element-anim-1 scroll-animate"
+                data-animate="active"
+              >
+                <div className="image kf-image-hover">
+                  <a href="images/menu2.jpg" className="has-popup-image">
+                    <img src="images/menu2.jpg" alt="image" />
+                  </a>
+                </div>
+                <div className="desc">
+                  <h5 className="name">כנאפת הבית</h5>
+                  <div className="subname">
+                    {" "}
+                    כנאפה טרייה וחמה, עשויה במקום עם גבינה עשירה וסירופ סוכר
+                    מתקתק, במרקם מושלם.
+                    <br />
+                    מגיעה בשלושה גדלים לבחירה:
+                    <br />
+                    <ul>
+                      <li>
+                        אישית <div className="price"> 20 ₪</div>
+                      </li>
+                      <li>
+                        זוגית <div className="price"> 35 ₪</div>
+                      </li>
+                      <li>
+                        משפחתית <div className="price"> 70 ₪</div>
+                      </li>
+                    </ul>
+                  </div>
+                  
+                </div>
+              </div>
             </div>
           </div>
         </div>
