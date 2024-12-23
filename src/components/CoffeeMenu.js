@@ -840,7 +840,6 @@ const CoffeeMenu = () => {
                       </li>
                     </ul>
                   </div>
-                  
                 </div>
               </div>
             </div>
