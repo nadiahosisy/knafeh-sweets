@@ -116,6 +116,7 @@ const CoffeeMenu = () => {
           style={{ backgroundImage: "url(images/menu_logo.png)" }}
         >
           <div className="row all-menu-items">
+            {/* #region Hot Drinks */}
             <div className="kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 all hot-drinks">
               <div
                 className="kf-menu-item element-anim-1 scroll-animate"
@@ -161,8 +162,8 @@ const CoffeeMenu = () => {
                 data-animate="active"
               >
                 <div className="image kf-image-hover">
-                  <a href="images/menu1.jpg" className="has-popup-image">
-                    <img src="images/menu1.jpg" alt="image" />
+                  <a href="images/espresso (2).jpg" className="has-popup-image">
+                    <img src="images/espresso (2).jpg" alt="image" />
                   </a>
                 </div>
                 <div className="desc">
@@ -180,8 +181,8 @@ const CoffeeMenu = () => {
                 data-animate="active"
               >
                 <div className="image kf-image-hover">
-                  <a href="images/menu1.jpg" className="has-popup-image">
-                    <img src="images/menu1.jpg" alt="image" />
+                  <a href="images/macchiato.jpg" className="has-popup-image">
+                    <img src="images/macchiato.jpg" alt="image" />
                   </a>
                 </div>
                 <div className="desc">
@@ -201,8 +202,8 @@ const CoffeeMenu = () => {
                 data-animate="active"
               >
                 <div className="image kf-image-hover">
-                  <a href="images/menu1.jpg" className="has-popup-image">
-                    <img src="images/menu1.jpg" alt="image" />
+                  <a href="images/affogato.jpg" className="has-popup-image">
+                    <img src="images/affogato.jpg" alt="image" />
                   </a>
                 </div>
                 <div className="desc">
@@ -262,8 +263,8 @@ const CoffeeMenu = () => {
                 data-animate="active"
               >
                 <div className="image kf-image-hover">
-                  <a href="images/menu1.jpg" className="has-popup-image">
-                    <img src="images/menu1.jpg" alt="image" />
+                  <a href="images/cappuccino.jpg" className="has-popup-image">
+                    <img src="images/cappuccino.jpg" alt="image" />
                   </a>
                 </div>
                 <div className="desc">
@@ -282,8 +283,8 @@ const CoffeeMenu = () => {
                 data-animate="active"
               >
                 <div className="image kf-image-hover">
-                  <a href="images/menu1.jpg" className="has-popup-image">
-                    <img src="images/menu1.jpg" alt="image" />
+                  <a href="images/mocha.jpg" className="has-popup-image">
+                    <img src="images/mocha.jpg" alt="image" />
                   </a>
                 </div>
                 <div className="desc">
@@ -340,7 +341,9 @@ const CoffeeMenu = () => {
                 </div>
               </div>
             </div>
+            {/* #endregion Hot Drinks */}
 
+            {/* #region Cold Drinks */}
             <div className="kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 all cold-drinks">
               <div
                 className="kf-menu-item element-anim-1 scroll-animate"
@@ -473,8 +476,8 @@ const CoffeeMenu = () => {
                 data-animate="active"
               >
                 <div className="image kf-image-hover">
-                  <a href="images/menu2.jpg" className="has-popup-image">
-                    <img src="images/menu2.jpg" alt="image" />
+                  <a href="images/orangeJuice.jpg" className="has-popup-image">
+                    <img src="images/orangeJuice.jpg" alt="image" />
                   </a>
                 </div>
                 <div className="desc">
@@ -492,8 +495,8 @@ const CoffeeMenu = () => {
                 data-animate="active"
               >
                 <div className="image kf-image-hover">
-                  <a href="images/menu2.jpg" className="has-popup-image">
-                    <img src="images/menu2.jpg" alt="image" />
+                  <a href="images/lemonade.jpg" className="has-popup-image">
+                    <img src="images/lemonade.jpg" alt="image" />
                   </a>
                 </div>
                 <div className="desc">
@@ -503,7 +506,7 @@ const CoffeeMenu = () => {
                     משקה לימונדה מרענן בטעם לימון מתקתק, מוכן במיוחד לרגעים של
                     פינוק ורעננות.
                   </div>
-                  <div className="price">25₪</div>
+                  <div className="price">8₪</div>
                 </div>
               </div>
             </div>
@@ -524,7 +527,7 @@ const CoffeeMenu = () => {
                     קנקן גדול של משקה לימונדה מרענן בטעם לימון מתקתק, מוכן
                     במיוחד לרגעים של פינוק ורעננות.
                   </div>
-                  <div className="price">25₪</div>
+                  <div className="price">20₪</div>
                 </div>
               </div>
             </div>
@@ -692,6 +695,7 @@ const CoffeeMenu = () => {
                 </div>
               </div>
             </div>
+            {/* #endregion Cold Drinks */}
 
             <div className="kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 all dessert">
               <div
@@ -840,6 +844,50 @@ const CoffeeMenu = () => {
                       </li>
                     </ul>
                   </div>
+                </div>
+              </div>
+            </div>
+            <div className="kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 all knafeh">
+              <div
+                className="kf-menu-item element-anim-1 scroll-animate"
+                data-animate="active"
+              >
+                <div className="image kf-image-hover">
+                  <a href="images/menu2.jpg" className="has-popup-image">
+                    <img src="images/menu2.jpg" alt="image" />
+                  </a>
+                </div>
+                <div className="desc">
+                  <h5 className="name">שבלולית אדומה</h5>
+                  <div className="subname">
+                    {" "}
+                    כנאפה טרייה וחמה, עשויה במקום עם גבינה עשירה וסירופ סוכר
+                    מתקתק, במרקם מושלם.
+                    <br />
+                  </div>
+                  <div className="price">40₪</div>
+                </div>
+              </div>
+            </div>
+            <div className="kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 all knafeh">
+              <div
+                className="kf-menu-item element-anim-1 scroll-animate"
+                data-animate="active"
+              >
+                <div className="image kf-image-hover">
+                  <a href="images/menu2.jpg" className="has-popup-image">
+                    <img src="images/menu2.jpg" alt="image" />
+                  </a>
+                </div>
+                <div className="desc">
+                  <h5 className="name">שבלולית אדומה</h5>
+                  <div className="subname">
+                    {" "}
+                    כנאפה טרייה וחמה, עשויה במקום עם גבינה עשירה וסירופ סוכר
+                    מתקתק, במרקם מושלם.
+                    <br />
+                  </div>
+                  <div className="price">40₪</div>
                 </div>
               </div>
             </div>
