@@ -76,10 +76,10 @@ const CoffeeMenu = () => {
 
           <a
             className="c-pointer"
-            onClick={handleFilterKeyChange("iceCream")}
-            data-href="iceCream"
+            onClick={handleFilterKeyChange("baklawa")}
+            data-href="baklawa"
           >
-            גלידה
+            בקלאווה
           </a>
           <a
             className="c-pointer"
@@ -116,7 +116,6 @@ const CoffeeMenu = () => {
           style={{ backgroundImage: "url(images/menu_logo.png)" }}
         >
           <div className="row all-menu-items">
-            {/* #region Hot Drinks */}
             <div className="kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 all hot-drinks">
               <div
                 className="kf-menu-item element-anim-1 scroll-animate"
@@ -341,9 +340,7 @@ const CoffeeMenu = () => {
                 </div>
               </div>
             </div>
-            {/* #endregion Hot Drinks */}
 
-            {/* #region Cold Drinks */}
             <div className="kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 all cold-drinks">
               <div
                 className="kf-menu-item element-anim-1 scroll-animate"
@@ -387,7 +384,6 @@ const CoffeeMenu = () => {
                 </div>
               </div>
             </div>
-
             <div className="kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 all cold-drinks">
               <div
                 className="kf-menu-item element-anim-1 scroll-animate"
@@ -469,7 +465,6 @@ const CoffeeMenu = () => {
                 </div>
               </div>
             </div>
-
             <div className="kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 all cold-drinks">
               <div
                 className="kf-menu-item element-anim-1 scroll-animate"
@@ -547,7 +542,6 @@ const CoffeeMenu = () => {
                 </div>
               </div>
             </div>
-
             <div className="kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 all cold-drinks">
               <div
                 className="kf-menu-item element-anim-1 scroll-animate"
@@ -564,7 +558,6 @@ const CoffeeMenu = () => {
                 </div>
               </div>
             </div>
-
             <div className="kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 all cold-drinks">
               <div
                 className="kf-menu-item element-anim-1 scroll-animate"
@@ -581,7 +574,6 @@ const CoffeeMenu = () => {
                 </div>
               </div>
             </div>
-
             <div className="kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 all cold-drinks">
               <div
                 className="kf-menu-item element-anim-1 scroll-animate"
@@ -614,7 +606,6 @@ const CoffeeMenu = () => {
                 </div>
               </div>
             </div>
-
             <div className="kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 all cold-drinks">
               <div
                 className="kf-menu-item element-anim-1 scroll-animate"
@@ -695,7 +686,6 @@ const CoffeeMenu = () => {
                 </div>
               </div>
             </div>
-            {/* #endregion Cold Drinks */}
 
             <div className="kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 all dessert">
               <div
@@ -813,14 +803,15 @@ const CoffeeMenu = () => {
                 </div>
               </div>
             </div>
+
             <div className="kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 all knafeh">
               <div
                 className="kf-menu-item element-anim-1 scroll-animate"
                 data-animate="active"
               >
                 <div className="image kf-image-hover">
-                  <a href="images/menu2.jpg" className="has-popup-image">
-                    <img src="images/menu2.jpg" alt="image" />
+                  <a href="images/knafeh.jpg" className="has-popup-image">
+                    <img src="images/knafeh.jpg" alt="image" />
                   </a>
                 </div>
                 <div className="desc">
@@ -875,19 +866,141 @@ const CoffeeMenu = () => {
                 data-animate="active"
               >
                 <div className="image kf-image-hover">
-                  <a href="images/menu2.jpg" className="has-popup-image">
-                    <img src="images/menu2.jpg" alt="image" />
+                  <a
+                    href="images/pistachioKnafeh.jpg"
+                    className="has-popup-image"
+                  >
+                    <img src="images/pistachioKnafeh.jpg" alt="image" />
                   </a>
                 </div>
                 <div className="desc">
-                  <h5 className="name">שבלולית אדומה</h5>
+                  <h5 className="name">כנאפה פיסטוק</h5>
+                  <div className="subname">
+                    קינוח עשיר בשתי שכבות קדאיף פריכות וביניהן קרם פיסטוק עשיר
+                    ושוקולד לבן נמס.
+                    <br />
+                    מעל, ציפוי נדיב של קרם פיסטוק ושוקולד לבן, מוגש עם קצפת
+                    וכדור גלידה לבחירה (וניל, שוקולד, תות ועוד).
+                  </div>
+                  <div className="price">45₪</div>
+                </div>
+              </div>
+            </div>
+            <div className="kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 all knafeh">
+              <div
+                className="kf-menu-item element-anim-1 scroll-animate"
+                data-animate="active"
+              >
+                <div className="image kf-image-hover">
+                  <a
+                    href="images/nutellaKnafeh.jpg"
+                    className="has-popup-image"
+                  >
+                    <img src="images/nutellaKnafeh.jpg" alt="image" />
+                  </a>
+                </div>
+                <div className="desc">
+                  <h5 className="name">כנאפה נוטלה</h5>
                   <div className="subname">
                     {" "}
-                    כנאפה טרייה וחמה, עשויה במקום עם גבינה עשירה וסירופ סוכר
-                    מתקתק, במרקם מושלם.
+                    קינוח עשיר בשתי שכבות קדאיף פריכות וביניהן שכבת נוטלה מפנקת
+                    ושוקולד לבן נמס.
                     <br />
+                    מעל, ציפוי נדיב של נוטלה ושוקולד לבן, מוגש עם קצפת וכדור
+                    גלידה לבחירה (וניל, שוקולד, תות ועוד).
                   </div>
-                  <div className="price">40₪</div>
+                  <div className="price">45₪</div>
+                </div>
+              </div>
+            </div>
+            <div className="kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 all knafeh">
+              <div
+                className="kf-menu-item element-anim-1 scroll-animate"
+                data-animate="active"
+              >
+                <div className="image kf-image-hover">
+                  <a href="images/lotusKnafeh.jpg" className="has-popup-image">
+                    <img src="images/lotusKnafeh.jpg" alt="image" />
+                  </a>
+                </div>
+                <div className="desc">
+                  <h5 className="name">כנאפה לוטוס</h5>
+                  <div className="subname">
+                    {" "}
+                    קינוח עשיר בשתי שכבות קדאיף פריכות וביניהן שכבת קרם לוטוס
+                    מלטף.
+                    <br />
+                    מעל, ציפוי נדיב של קרם לוטוס ופירורי לוטוס פריכים, מוגש עם
+                    קצפת וכדור גלידה לבחירה (וניל, שוקולד, תות ועוד).
+                  </div>
+                  <div className="price">45₪</div>
+                </div>
+              </div>
+            </div>
+
+            <div className="kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 all baklawa">
+              <div
+                className="kf-menu-item element-anim-1 scroll-animate"
+                data-animate="active"
+              >
+                <div className="image kf-image-hover">
+                  <a href="images/baklawaNuts.jpg" className="has-popup-image">
+                    <img src="images/baklawaNuts.jpg" alt="image" />
+                  </a>
+                </div>
+                <div className="desc">
+                  <h5 className="name">קולאז' אגוזים וקינמון</h5>
+                  <div className="subname">
+                    שכבות בצק פילו עדינות, ממולאות בתערובת עשירה של אגוזים
+                    טחונים עם נגיעות קינמון ארומטי, מצופות בסירופ סוכר מתקתק.
+                  </div>
+                  <div className="price">110₪ לקילו</div>
+                </div>
+              </div>
+            </div>
+            <div className="kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 all baklawa">
+              <div
+                className="kf-menu-item element-anim-1 scroll-animate"
+                data-animate="active"
+              >
+                <div className="image kf-image-hover">
+                  <a
+                    href="images/baklawaPistachio.jpg"
+                    className="has-popup-image"
+                  >
+                    <img src="images/baklawaPistachio.jpg" alt="image" />
+                  </a>
+                </div>
+                <div className="desc">
+                  <h5 className="name">בורמה פיסטוק</h5>
+                  <div className="subname">
+                    גליל בקלאווה עשוי משכבות דקות של בצק פילו פריך, ממולא
+                    בפיסטוק טחון טרי ומצופה בסירופ סוכר מתקתק.
+                  </div>
+                  <div className="price">130₪ לקילו</div>
+                </div>
+              </div>
+            </div>
+            <div className="kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 all baklawa">
+              <div
+                className="kf-menu-item element-anim-1 scroll-animate"
+                data-animate="active"
+              >
+                <div className="image kf-image-hover">
+                  <a
+                    href="images/baklawaPistachio.jpg"
+                    className="has-popup-image"
+                  >
+                    <img src="images/baklawaPistachio.jpg" alt="image" />
+                  </a>
+                </div>
+                <div className="desc">
+                  <h5 className="name">הריסה סולת</h5>
+                  <div className="subname">
+                    עוגת סולת מסורתית, רכה ונימוחה, ספוגה בסירופ סוכר עדין
+                    ומעוטרת בשקד מעל.
+                  </div>
+                  <div className="price">40₪ לקילו</div>
                 </div>
               </div>
             </div>
