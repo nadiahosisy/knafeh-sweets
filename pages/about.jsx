@@ -18,7 +18,7 @@ const About = () => {
             data-splitting="chars"
             data-animate="active"
           >
-            About Us
+            קצת עלינו
           </h1>
         </div>
       </section>
@@ -32,13 +32,14 @@ const About = () => {
                   className="kf-subtitle element-anim-1 scroll-animate"
                   data-animate="active"
                 >
-                  About Kaffen
+                  על המקום
                 </div>
                 <h3
                   className="kf-title element-anim-1 scroll-animate"
                   data-animate="active"
                 >
-                  New London Coffee Founded For Extraordinary Test
+                  בית הכנאפה נולד מתוך אהבה אמיתית למסורת, לטעמים הייחודיים
+                  ולרגעים הקטנים של שמחה.
                 </h3>
               </div>
               <div
@@ -46,9 +47,35 @@ const About = () => {
                 data-animate="active"
               >
                 <p>
-                  Sed ut perspiciatis unde omnis iste natus error voluptate
-                  accusantium doloremque laudantium, totam rem aperiam eaque
-                  ipsa quae abillo inventore veritatis
+                  המקום נפתח לראשונה בשנת 2017, כשזוג האחים אמל ומנסור ממשפחת
+                  מנסור החליטו להגשים חלום ישן ולפתוח את המקום ביחד. <br />
+                  אך עם התפרצות הקורונה, נאלצו לסגור את דלתותיהם ולהקדיש את זמנם
+                  למשפחה.
+                </p>
+                <br />
+                <p>
+                  הסיפור קיבל תפנית מרגשת כאשר טלאל מנסור, בנו של מנסור, חייל
+                  שסיים את שירותו הצבאי בחיל האוויר, החליט להמשיך את מורשת אביו
+                  ודודו.
+                  <br />
+                  טלאל, שגדל במקום ונסחף באהבתו לכנאפה ולתשוקה שבהכנתה, החליט
+                  להחיות מחדש את החלום הישן.
+                  <br />
+                  מתוך תשוקה לקינוחים, לאווירה האותנטית ולחיבור עם אנשים, טלאל
+                  יצר בית חדש לכנאפה – מקום שמעניק לא רק טעם בלתי נשכח, אלא גם
+                  חוויה של חום ומשפחתיות, ובעיקר הגשמה עצמית.
+                </p>
+                <br />
+                <p>
+                  ב-24/11/2024, לאחר תחילת המלחמה, נפתח בית הכנאפה מחדש כסמל
+                  לתקווה, לעמידה חזקה וליכולת להתחיל מחדש גם בזמנים הקשים ביותר.
+                  <br />
+                  המקום מהווה הוכחה שחלומות, תשוקה ואמונה יכולים להתגבר על כל
+                  מכשול.
+                  <br />
+                  בית הכנאפה הוא לא רק בית לקינוחים מזרח תיכוניים – הוא מקום
+                  שמספר סיפור על נחישות, על אהבה לאנשים, ועל הרצון להעניק רגעים
+                  של מתיקות, שמחה ושלווה גם בימים סוערים.
                 </p>
               </div>
               <div className="kf-choose-list">
