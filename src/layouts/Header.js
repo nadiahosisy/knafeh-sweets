@@ -92,9 +92,9 @@ const Header = () => {
                   <li>
                     <Link href="/">בית קפה</Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link href="index-2">מסעדה</Link>
-                  </li>
+                  </li> */}
                 </ul>
               </li>
               <li>
@@ -106,9 +106,9 @@ const Header = () => {
                   <li>
                     <Link href="menu-coffee">תפריט קפה</Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link href="menu-restaurant">תפריט מסעדה</Link>
-                  </li>
+                  </li> */}
                 </ul>
               </li>
               <li>
@@ -194,9 +194,9 @@ const Header = () => {
     <li>
       <Link href="/">בית קפה</Link>
     </li>
-    <li>
+    {/* <li>
       <Link href="index-2">מסעדה</Link>
-    </li>
+    </li> */}
   </ul>
 </li>
          
@@ -210,9 +210,9 @@ const Header = () => {
               <li>
                 <Link href="menu-coffee">תפריט קפה</Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href="menu-restaurant">תפריט מסעדה</Link>
-              </li>
+              </li> */}
               </ul>
             </li>
             {/* <li className="has-children">

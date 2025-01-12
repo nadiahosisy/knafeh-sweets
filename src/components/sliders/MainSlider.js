@@ -20,9 +20,9 @@ const MainSlider = () => {
             <div className="kf-slider-content">
               <h1 className="kf-slider-title">היכנסו לעולם מתוק של הכנאפה</h1>
               <p className="kf-slider-description">
-                התענגו על המגוון המשובח ביותר של כנאפה וממתקים מיוחדים
+              טעמו של מסורת, ביס אחד בכל פעם
               </p>
-              <Link href="reservation" className="menu-btn kf-btn">
+              <Link href="menu-coffee" className="menu-btn kf-btn">
                 <span>לתפריט</span>
               </Link>
             </div>

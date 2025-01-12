@@ -24,7 +24,7 @@ const Reservation = () => {
         </div>
       </section>
       {/* Section Reservation */}
-      <section className="section kf-reservation">
+      {/* <section className="section kf-reservation">
         <div className="container">
           <div
             className="kf-reservation-form element-anim-1 scroll-animate"
@@ -37,7 +37,7 @@ const Reservation = () => {
             <ReservationForm />
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Section Insta Carousel */}
       <InstaCarousel />
       {/* Section Brands */}

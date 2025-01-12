@@ -78,57 +78,17 @@ const About = () => {
                   של מתיקות, שמחה ושלווה גם בימים סוערים.
                 </p>
               </div>
-              <div className="kf-choose-list">
-                <ul>
-                  <li
-                    className="element-anim-1 scroll-animate"
-                    data-animate="active"
-                  >
-                    <div className="icon">
-                      <img src="images/choose_icon1.png" alt="image" />
-                    </div>
-                    <div className="desc">
-                      <h5 className="name">Natural Coffee Beans</h5>
-                      <div className="subname">
-                        Sed ut perspiciatis unde omnis iste natus error
-                        voluptate accusantium doloremque
-                      </div>
-                    </div>
-                  </li>
-                  <li
-                    className="element-anim-1 scroll-animate"
-                    data-animate="active"
-                  >
-                    <div className="icon">
-                      <img src="images/choose_icon2.png" alt="image" />
-                    </div>
-                    <div className="desc">
-                      <h5 className="name">100% ISO Certification</h5>
-                      <div className="subname">
-                        Sed ut perspiciatis unde omnis iste natus error
-                        voluptate accusantium doloremque
-                      </div>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-              <Link
-                href="menu-coffee"
-                className="kf-btn element-anim-1 scroll-animate"
-                data-animate="active"
-              >
-                <span>our menu</span>
-                <i className="fas fa-chevron-right" />
-              </Link>
+     
+          
             </div>
-            <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6 offset-lg-1">
+            {/* <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6 offset-lg-1">
               <div
                 className="kf-choose-image element-anim-1 scroll-animate"
                 data-animate="active"
               >
                 <img src="images/about_img2.jpg" alt="image" />
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
@@ -200,16 +160,16 @@ const About = () => {
         </div>
       </section> */}
       {/* Section Video */}
-      <section className="section kf-video">
+      {/* <section className="section kf-video">
         <div className="container">
           <VideoPlayer
             videoBg={"images/video_bg.jpg"}
             extraClass={"kf-image-hover"}
           />
         </div>
-      </section>
+      </section> */}
       {/* Section Services-2 */}
-      <section className="section kf-services">
+      {/* <section className="section kf-services">
         <div className="container">
           <div className="kf-services-items-2 row">
             <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3">
@@ -270,9 +230,9 @@ const About = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Section Team */}
-      <section className="section kf-team section-bg">
+      {/* <section className="section kf-team section-bg">
         <div className="container">
           <div className="kf-titles align-center">
             <div
@@ -419,7 +379,7 @@ const About = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Section Brands */}
       <section className="section kf-brands">
         <div className="container">

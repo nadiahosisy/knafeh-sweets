@@ -4,7 +4,7 @@ const ReservationSection = () => {
   return (
     <>
     {/* Section Reservation */}
-    <section className="section kf-reservation kf-section-no-margin">
+    {/* <section className="section kf-reservation kf-section-no-margin">
       <div className="container">
         <div
           className="kf-reservation-form element-anim-1 scroll-animate"
@@ -25,7 +25,7 @@ const ReservationSection = () => {
           <ReservationForm />
         </div>
       </div>
-    </section>
+    </section> */}
     </>
   );
 };

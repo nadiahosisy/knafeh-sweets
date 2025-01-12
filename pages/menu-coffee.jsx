@@ -15,7 +15,7 @@ const MenuCoffee = () => {
       <section className="section kf-started-inner">
         <div
           className="kf-parallax-bg js-parallax"
-          style={{ backgroundImage: "url(images/service3.jpg)" }}
+          style={{ backgroundImage: "url(images/menu-2.jpg)" }}
         />
         <div className="container">
           <h1
@@ -23,7 +23,7 @@ const MenuCoffee = () => {
             data-splitting="chars"
             data-animate="active"
           >
-            Coffee Menu
+            
           </h1>
         </div>
       </section>

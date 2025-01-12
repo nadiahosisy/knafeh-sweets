@@ -1833,6 +1833,11 @@ button.mfp-arrow:before {
   font-family: "Oswald";
   color: #fff;
   font-weight: 400;
+  text-align: justify; /* Ensures straight edges on both sides */
+  line-height: 1.6; /* Adjusts line spacing for readability */
+  word-spacing: 1px; /* Smoothens word gaps */
+  hyphens: auto; /* Allows proper word breaks */
+  direction: rtl; /* Ensures proper right-to-left alignment for Hebrew */
 }
 
 .kf-p-title {
@@ -1935,7 +1940,7 @@ button.mfp-arrow:before {
     padding: 70px 0;
   }
   .kf-titles {
-    text-align: left !important;
+    /* text-align: left !important; */
   }
   .kf-subtitle {
     font-size: 16px;
@@ -2152,6 +2157,9 @@ button.mfp-arrow:before {
 
 .section.kf-about .kf-title {
   margin-bottom: 30px;
+  text-align: justify;
+  word-spacing: 1px;
+  letter-spacing: 0.5px;
 }
 
 .kf-about-quote {
@@ -3431,7 +3439,7 @@ button.mfp-arrow:before {
 }
 
 .section.kf-started-inner {
-  height: 540px;
+  height: 1000px;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
